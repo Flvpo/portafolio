@@ -1,0 +1,316 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Your name here] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hola, mi nombre es <span class="text-color-main">Felipe Segura</span>
+          <br />
+          Soy el programador desconocido.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Saber mas </a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Sobre mi</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="600px"
+                src="assets/istockphoto-1204374053-612x612.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Tengo 21 años y estoy comprometido con la excelencia en el trabajo. Soy Felipe Segura, alguien que responde rápidamente y sigue instrucciones. Mi portafolio digital muestra ejemplos de mi dedicación y capacidad para entregar resultados de calidad. Estoy listo para abrazar nuevas oportunidades y desafíos en mi carrera. ¡Explora mi trabajo y descubre mi enfoque en la productividad y la creatividad!
+              </p>
+              <p class="about-wrapper__info-text">
+                Cuando no estoy trabajando, disfruto pintar, escuchar música y tocar el piano, actividades que alimentan mi creatividad y me ayudan a encontrar inspiración en la vida cotidiana. Mis metas incluyen convertirme en alguien importante en la industria, contribuyendo con mi pasión y habilidades para hacer una diferencia significativa en proyectos y equipos.
+                Explora mi trabajo y descubre mi enfoque en la productividad y la creatividad. Estoy emocionado por el camino que tengo por delante y estoy decidido a alcanzar mis objetivos en esta apasionante travesía profesional.                                                                                                                                                                                                        
+              </p>
+              <span class="d-flex mt-3">  
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Proyectos</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Calculadora Avanzada en C</h3>
+                <div>
+                  <p class="mb-4">
+                    Se desarrolló una calculadora avanzada en C con funciones matemáticas y manejo de errores. Este proyecto requirió habilidades en programación en C, control de flujo y gestión de datos de entrada/salida. La calculadora ofrece operaciones como suma, resta, multiplicación, división, potencia, raíz cuadrada, seno y coseno, con una interfaz de usuario interactiva. Es una aplicación versátil que demuestra competencia en programación y resolución de problemas.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://replit.com/@felipeseguramsa/Calculadora?v=1"
+                >
+                  Probar
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Flvpo/Calculadora-Avanzada-en-C"
+                >
+                  Codigo Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Calculadora.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Juego de Batalla Naval Python</h3>
+                <div>
+                  <p class="mb-4">
+                    El juego de Batalla Naval en Python emplea listas, control de flujo, entrada del usuario y generación aleatoria para que el jugador adivine la ubicación de los barcos de la máquina en una cuadrícula 5x5. Se utilizan funciones personalizadas para crear y mostrar la cuadrícula, además de gestionar la lógica del juego. Los mensajes guían al jugador, y las variables llevan un registro de los intentos y el estado del juego. La victoria se logra al hundir un barco de la máquina. Este proyecto ofrece una introducción práctica a conceptos de programación como bucles, estructuras de datos y lógica de juego en Python.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://replit.com/@felipeseguramsa/Batalla-Naval?v=1"
+                >
+                  Probar
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Flvpo/BatallaNaval"
+                >
+                  Codigo Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Solicitar-coordenadas-para-disparar-Juego-battleship-con-Python.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Identificacion de USB en Python</h3>
+                <div>
+                  <p class="mb-4">
+                    Se utilizó Python y la biblioteca pywinusb para enumerar dispositivos USB en Windows. El código importa pywinusb.hid, define una función enumerar_dispositivos_usb() y utiliza find_all_hid_devices() para listar dispositivos HID USB. Luego, se muestra información como el ID del vendedor, el ID del producto y el nombre del dispositivo. Las habilidades clave incluyen programación en Python, el uso de bibliotecas externas, la iteración y la comprensión de cómo interactuar con dispositivos USB en un entorno Windows.
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Flvpo/USB/blob/main/Usb.py"
+                >
+                  Codigo Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/86865771-9dd46e80-c10a-11ea-9a17-962add35e729.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">felipe.segura@userena.cl</p>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+        <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobiwave/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer" 
+            class="github-button"
+            href="https://github.com/cobiwave/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobiwave/simplefolio on GitHub"
+            >Star</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
